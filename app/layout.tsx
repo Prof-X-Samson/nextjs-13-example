@@ -110,6 +110,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 }
 
 /*
+
 Use grid instead of flex for sticky footer - puts all config onto body or single div:
   `min-h-screen grid grid-rows-[auto_1fr_auto]`
 
